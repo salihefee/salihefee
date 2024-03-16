@@ -1,16 +1,27 @@
-### Hi there 👋
+```c
+#include <stdio.h>
+#include <string.h>
+#include "person.h"
 
-<!--
-**salihefee/salihefee** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+int main() {
+    char* name = "Salih Efe Ergür";
+    int age = 16;
+    char* occupation = "Student";
+    char* location = "Turkey";
+    char* languages[] = { "C#", "Python", "C" };
+    char* projects[] = { "MapDownloader", "osu-rpc", "MineStorage", "badapple", "BadAppleMinecraft" };
+    char* hobbies[] = { "Coding", "Playing osu!", "Listening to music" };
+    
+    Socials socials = {
+        .discord = "salihefee",
+        .instagram = "salihefee727",
+        .github = "salihefee",
+        .reddit = "salihefee727",
+        .lastfm = "https://www.last.fm/user/pthreadgc2",
+        .email = "mail@salihefee.com.tr",
+        .website = "https://salihefee.com.tr",
+    };
 
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+    Person salihefee = createPerson(name, age, occupation, location, languages, socials, projects, hobbies);
+}
+```
