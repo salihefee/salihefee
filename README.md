@@ -1,6 +1,4 @@
 ```c
-#include <stdio.h>
-#include <string.h>
 #include "person.h"
 
 int main() {
