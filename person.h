@@ -22,4 +22,6 @@ typedef struct {
     const char** hobbies;
 } Person;
 
+void print_person(const Person* person);
+
 #endif

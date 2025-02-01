@@ -39,6 +39,7 @@ int main() {
         }
     };
 
+    print_person(&salihefee);
     return 0;
 }
 ```
