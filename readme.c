@@ -1,18 +1,22 @@
 #include "person.h"
 
+#include <stdio.h>
+
 int main() {
-    const char* languages[] = {"C#", "Python", "C"};
+    const char* languages[] = {"C#", "Python", "C", NULL};
     const char* projects[] = {
         "MapDownloader",
         "osu-rpc", 
         "MineStorage",
         "badapple",
-        "BadAppleMinecraft"
+        "BadAppleMinecraft",
+        NULL
     };
     const char* hobbies[] = {
         "Coding",
         "Playing osu!",
-        "Listening to music"
+        "Listening to music",
+        NULL
     };
 
     Person salihefee = {
