@@ -3,8 +3,8 @@
 
 void print_string_array(const char** arr, const char* label) {
     printf("%s: ", label);
-    for (int i = 0; arr[i] != NULL; i++) {
-        printf("%s%s", i == 0 ? "" : ", ", arr[i]);
+    for (const char** ptr = arr; *ptr != NULL; ptr++) {
+        printf("%s%s", ptr == arr ? "" : ", ", *ptr);
     }
     printf("\n");
 }
