@@ -1,23 +1,25 @@
+#ifndef PERSON_H
+#define PERSON_H
+
 typedef struct {
-    char* discord;
-    char* instagram;
-    char* github;
-    char* reddit;
-    char* lastfm;
-    char* email;
-    char* website;
+    const char* discord;
+    const char* instagram;
+    const char* github;
+    const char* reddit;
+    const char* lastfm;
+    const char* email;
+    const char* website;
 } Socials;
 
 typedef struct {
-    char* name;
+    const char* name;
     int age;
-    char* occupation;
-    char* location;
-    char** languages;
+    const char* occupation;
+    const char* location;
+    const char** languages;
     Socials socials;
-    char** projects;
-    char** hobbies;
+    const char** projects;
+    const char** hobbies;
 } Person;
 
-
-Person createPerson(char* name, int age, char* occupation, char* location, char** languages, Socials socials, char** projects, char** hobbies);
+#endif
