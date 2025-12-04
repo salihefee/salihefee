@@ -22,7 +22,7 @@ int main() {
 
     Person salihefee = {
         .name = "Salih Efe Ergür",
-        .age = 17,
+        .age = 18,
         .occupation = "Student",
         .location = "Turkey",
         .languages = languages,
