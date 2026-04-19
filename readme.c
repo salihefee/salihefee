@@ -21,7 +21,7 @@ int main() {
 
     Person salihefee = {
         .name = "Salih Efe Ergür",
-        .age = 17,
+        .age = 18,
         .occupation = "Student",
         .location = "Turkey",
         .languages = languages,
@@ -29,12 +29,10 @@ int main() {
         .hobbies = hobbies,
         .socials = {
             .discord = "salihefee",
-            .instagram = "salihefee727", // i don't use it anymore
             .github = "salihefee",
             .reddit = "salihefee727",
-            .lastfm = "https://www.last.fm/user/pthreadgc2",
             .email = "email@salihefeergur.com.tr",
-            .website = "https://salihefeergur.com.tr"
+            .website = "https://salihefee.com.tr"
         }
     };
 
