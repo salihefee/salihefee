@@ -30,12 +30,10 @@ int main() {
         .hobbies = hobbies,
         .socials = {
             .discord = "salihefee",
-            .instagram = "salihefee727", // i don't use it anymore
             .github = "salihefee",
             .reddit = "salihefee727",
-            .lastfm = "https://www.last.fm/user/pthreadgc2",
             .email = "email@salihefeergur.com.tr",
-            .website = "https://salihefeergur.com.tr"
+            .website = "https://salihefee.com.tr"
         }
     };
 
